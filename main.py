@@ -4,7 +4,7 @@ import requests
 app = Flask(__name__)
 
 import os
-TMDB_API_KEY = os.getenv("142f373ce3f212d473a6d25667243b5e")
+TMDB_API_KEY = os.getenv("TMDB_API_KEY")
 
 
 MANIFEST = {
