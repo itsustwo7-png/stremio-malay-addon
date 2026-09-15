@@ -3,7 +3,9 @@ import requests
 
 app = Flask(__name__)
 
-TMDB_API_KEY = "142f373ce3f212d473a6d25667243b5e"
+import os
+TMDB_API_KEY = os.getenv("T142f373ce3f212d473a6d25667243b5e")
+
 
 MANIFEST = {
     "id": "com.astratutor.globalmalay",
